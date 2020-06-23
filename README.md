@@ -1,7 +1,4 @@
-# docker-code-server
+Image based on https://hub.docker.com/r/linuxserver/code-server but with added functions
 
-Based on linxserver/code-server image
-
-Contains customizations to add:
-
--Powershell 7
+- Powershell 7 installed
+- docker command line tools installed so that you can interact with the docker host itself to edit dockercompose files etc.
